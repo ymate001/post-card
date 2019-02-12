@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 16px;
+}
+
+.postcard{
+    background-color: white;
+    margin: auto;
+    position: absolute;
+    height: 325px;
+    width: 425px;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+    
+}
+
+.header {
+    margin-top: 0;
+    overflow: hidden;
+}
+
+.header img{
+    float: right;
+    width: 15%;
+    height: 15%;
+    overflow: hidden;
+   
+}
+
+.left-body {
+    float: left;
+    width: 55%;
+    
+}
+
+.right-body {
+    float: right;
+    width: 45%;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.footer {
+    border: 1px;
+    height: 100px;
+    margin-top: 80px;
+    padding: 120px;
+}
+
+.submit {
+   background-color: silver;
+   font-family: "Comic Sans MS", cursive, sans-serif;
+   text-align: center;
+   display: block;
+   font-size: 16px;
+}
+
+
